@@ -1,0 +1,45 @@
+main article{
+    display: block;
+}
+
+main article .sanpham{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 20px;
+}
+
+
+
+.sanpham .sanpham-item {
+    margin: 0 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #a7a1a1 1px;
+    border-radius: 5px;
+}
+
+.sanpham .sanpham-item .dat-hang{
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(205, 220, 57);
+    border-radius: 5px;
+    background-image: linear-gradient( #ffffff 0%, #cddc39 10%);
+}
+
+.sanpham .sanpham-item .sp-title{
+    font-family: sans-serif;
+    line-height: 34px;
+    font-size: 28px;
+    color: #f90b6d;
+}
+
+.sanpham .sanpham-item .desc{
+    margin: 0 5px;
+    text-align: justify;
+}

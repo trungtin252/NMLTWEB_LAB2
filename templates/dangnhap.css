@@ -1,0 +1,31 @@
+
+
+main article{
+    display: flex;
+    flex-direction: column;
+}
+
+article form{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/****Email va Pass******/
+form td{
+    display: inline;
+}
+main i{
+    color: #ffffff;
+    background-color: #cddc39;
+    min-width: 30px;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+form img{
+    width: 400px;
+    margin-left: 0;
+}

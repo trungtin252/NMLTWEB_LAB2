@@ -1,0 +1,158 @@
+
+
+
+
+/****************DAT HANG************/
+main .dathang ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+main .dathang img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/****************main*******************/
+
+main article{
+    display: block;
+}
+
+main h1 {
+    position: relative;
+    display: inline;
+    font-family: sans-serif;
+    line-height: 34px;
+    font-size: 28px;
+    margin: 12px 0 16px 0;
+    color: #f90b6d;
+    margin: 0px auto;
+}
+
+main h1::after {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: " ";
+    width: 200px;
+    height: 3px;
+    color: #cddc39;
+    background: rgb(205, 220, 57);
+    background: radial-gradient(circle, rgba(205, 220, 57, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+/***********Tieu de h2 ****************/
+main h2{
+    font-family: sans-serif;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 5px 0 10px 0;
+    color: #f90b6d;
+}
+
+main h3{
+    font-family: sans-serif;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 5px 0 10px 0;
+    color: #f90b6d;
+}
+
+
+
+main .gocthanhvien{
+    display: flex;
+    flex-direction: column;
+}
+
+main .gocthanhvien h2{
+    margin-left: 0;
+}
+
+main .gocthanhvien .info{
+    display: flex;
+}
+
+main .gocthanhvien .info .desc{
+    text-align: justify;
+    margin-right: 10px;
+}
+
+main .gocthanhvien .info video{
+    border-radius: 5px;
+}
+
+
+/********HD lam sua chua ***********/
+main .hd-thuchien .detail{
+    column-count: 2;
+}
+
+main .hd-thuchien h3{
+    break-before: column;
+}
+
+/*********San Pham Moi ***************/
+main .sphammoi{
+    display: flex;
+    flex-direction: column;
+}
+main .sphammoi .desc-group{
+    display: flex;
+}
+main .sphammoi .suachu-totchosuckhoe{
+    font-family: sans-serif;
+    font-size: 500;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.sphammoi .desc-group img{
+     
+}
+/**********bg - home ***********/
+.bg-home {
+    width: 100%;
+}
+
+/*****************Dat Hang *********************/
+
+main .dathang{
+    display: grid;
+    margin-bottom: 5px;
+    width: 100%;
+}
+main .dathang ul{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 0 3px;
+}
+main .dathang ul li{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ed4190;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding: 10px 90px;
+    width: 24%;
+    align-items: center;
+}
+
+main .dathang ul li span{
+    margin-top: 10px;
+}
+
+main .dathang .dathangngay{
+   
+}
+
